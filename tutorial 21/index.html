@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* the specifity of this selector is 10 */
+    h1{
+        color: aqua;
+    }
+
+    /* the specifity of this selector is 1 + 10 = 11 */
+   .yellow {
+        color: yellow;
+    }
+
+    /* the specifity of this selector is 10 */
+     .cred{
+        color: red;
+    }
+
+    /* the specifity of this selector is 10 */
+    .cpurple{
+        color: purple;
+    }
+
+    /* this is an example of attribute selector.The specifity of this selector is 1 */
+    [data-x="a"] {
+        background-color: green;
+    }
+     /* the specifity of this selector is 1 + 10 + 10 +  10  + 10  =41 */
+    a.harryclass.rohan-class[href]:hover{     
+        color: blueviolet;
+    }
+   
+    </style>
+</head>
+<body>
+    <div>
+        <h1 "yellow cred cpurple" data-x="a"="">CSS Specifity</h1>
+    </div>
+</body>
+</html> 
