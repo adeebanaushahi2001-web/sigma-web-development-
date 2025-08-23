@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            margin: auto;
+           background-color: aquamarine;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            /* height: 80vw; */
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+           background-color: aquamarine;
+        }
+        .container > div{
+            /* font-size: 2rem; */
+            font-size: 2em;
+            width:50%
+            border: 2px solid red;
+        }
+        .container > div > div{
+            border: 2px solid blue ;
+            width : 50%;
+        }
+        .mycont{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 100vmin; */
+            width:80vw;
+            /* height: 80vw; */
+            margin: 23px auto;
+            font-size: 22px;
+           color: rgb(0,0,0,);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+         This is a box
+    </div>
+    <div class="container">
+        <div></div>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nihil saepe suscipit quibusdam porro impedit ut quos eum, nisi deserunt similique animi! Exercitationem explicabo dicta obcaecati placeat soluta voluptates quaerat voluptatibus nobis. Accusamus beatae placeat inventore blanditiis repudiandae temporibus laborum doloremque aut consectetur ipsa dolor rerum, iure quibusdam quisquam excepturi nulla maiores reiciendis tempore quas delectus!
+        </div>
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, sed eum atque vero non maxime inventore at? Autem exercitationem tenetur qui? Iure quo officiis consequatur impedit saepe molestiae? Quisquam, magni..</div>
+    </div>
+    <div class="mycont">
+      I am another container
+    </div>
+    
+</body>
+</html>
