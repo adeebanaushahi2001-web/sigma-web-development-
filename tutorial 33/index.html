@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Multicolor Website</title>
+    <style>
+        :root{
+            --primary-color: #924a92;
+            --text-color: white;
+            --secondary-color:  #c09bc0;
+        }
+        /* :root{
+            --primary-color: #8f9993;
+            --text-color: white;
+            --secondary-color:  #19af5ab0;
+        } */
+       body{
+        background-color: var(--secondary-color);
+       }
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Poppins , sans-serif;
+        }
+        nav{
+            background-color: var(--primary-color);
+            padding: 12px  0;
+        }
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 23px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+ul li a{
+     color: var(--text-color);
+     text-decoration: none;
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- create a style sheet for a website with multicolor theme.
+    make globel variables for primary color, secondary color and text color.
+    use these variables in the style sheet.
+    and change the color theme by changing the variable values.
+    means you have to create a multicolor nav bar using css variables. -->
+    <header>
+<nav>
+    <UL> 
+       
+      <li><a href="/">Home</a></li>
+      <li><a href="/">About</a></li>
+      <li><a href="/">Services</a></li>
+      <li><a href="/">Contact us</a></li>
+     
+    </UL>
+</nav>
+    </header>
+    
+</body>
+</html>
